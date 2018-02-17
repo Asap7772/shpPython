@@ -32,7 +32,7 @@ def branch_tree(length, level,angle, ratio):
 
 #call to recursive function
 def main():
-    branch(3)
+    branch(4)
 
 main()
 
