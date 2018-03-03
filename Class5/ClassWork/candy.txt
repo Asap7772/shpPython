@@ -1,0 +1,16 @@
+Bottle Caps
+25.0
+Everlasting Gobstopper
+100.0
+Laffy Taffy
+20.0
+Wonka Bar
+35.0
+Pixy Stix
+30.0
+Nerds
+30.0
+Hot Ice Cream
+20.0
+Eatable Marshmallow Pillows
+90.0
