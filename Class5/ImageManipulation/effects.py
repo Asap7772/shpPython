@@ -3,9 +3,9 @@ from Image import Image;
 class Effects():
     
     def run(self):
-        self.x = Image("pictures/small.ppm");
+        self.x = Image("pictures/pie.ppm");
         print ""
-        self.grayscale()
+        self.mirror()
     
     def grayscale(self):
         for i in range(self.x.rows):

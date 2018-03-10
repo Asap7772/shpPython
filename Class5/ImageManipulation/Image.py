@@ -46,7 +46,10 @@ class Image():
         var.write(str(self.collumns) + " " + str(self.rows) + "\n");
         var.write(str(self.colorSize) + "\n");
         print "writing to file"
-        var.write(self.__str__())
+        for i in range(self.rows):
+             for j in range(self.collumns):
+                 var.write(" " + self.getColor(i,j).__str__());
+             var.write("\n");
         var.close();
         
     def __str__(self):
@@ -56,3 +59,4 @@ class Image():
                  string = string + " " + self.getColor(i,j).__str__();
              string += "\n";
         return string;
+    

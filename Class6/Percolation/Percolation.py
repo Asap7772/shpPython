@@ -4,7 +4,6 @@ import numpy as np
 np.set_printoptions(threshold=np.inf);
 
 class Percolation(object):
-    color_names = ["r", "g", "b"]
     
     def __init__(self, n = 1, p = 0.5):
         self.n = n;
