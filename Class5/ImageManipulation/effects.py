@@ -1,7 +1,7 @@
 from Image import Image;
 
 class Effects():
-    
+     
     def run(self):
         self.x = Image("pictures/pie.ppm");
         print ""
